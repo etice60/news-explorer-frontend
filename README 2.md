@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# News Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+- About the project
+- Figma Design
+- Links
+- Features
 
-In the project directory, you can run:
+### About the Project
 
-### `npm start`
+The News Explorer project is a full-stack application that allows users to search for news articles from many different sources and save them to their profile.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Figma Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Figma design was supplied by TripleTen and used to map out the UI design for this single page application. If you click on the link below, you will see that this design includes detailed views of each component used within the react application. The images and logos used were included in the Figma design. This link also includes detailed information for building the different screen-size applications.
 
-### `npm test`
+[Figma Design](https://www.figma.com/design/3ottwMEhlBt95Dbn8dw1NH/Your-Final-Project?node-id=0-1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+#### The website has two main features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When the user enters a keyword in the search bar, the website sends a request to the NewsAPI service, and finds all the relevant articles over the last week, and displays a list of cards for each of them
+A special section of the website displays all articles saved by the user
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Front-end of the website consists of two pages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Main page with a search box
+Page with saved news items where all liked materials are displayed
+CRA used to create template for front-end
 
-### `npm run eject`
+#### Back-end implementation:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- coming in part 2 and 3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The project can be seen live using this []
+- The project's backend code can be found by using this []
+- The API (NewsAPI) used in this application can be found by clicking on this [https://newsapi.org]
