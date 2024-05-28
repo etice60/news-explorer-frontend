@@ -1,5 +1,5 @@
-import { baseUrl } from "./Api";
-import { processServerResponse } from "./utils";
+// import { baseUrl } from "./Api";
+// import { processServerResponse } from "./utils";
 
 //--------sing up for registration---------//
 // export const registration = ({ email, password, name }) => {

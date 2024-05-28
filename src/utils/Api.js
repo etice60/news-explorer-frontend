@@ -1,4 +1,4 @@
-import { processServerResponse } from "./utils";
+// import { processServerResponse } from "./utils";
 
 export const baseUrl = "http://localhost:3000";
 
@@ -12,7 +12,7 @@ export const baseUrl = "http://localhost:3000";
 // };
 
 export const addSavedArticle = (newsData, keyword) => {
-  const token = localStorage.getItem("jwt");
+  // const token = localStorage.getItem("jwt");
   return new Promise((resolve, reject) => {
     resolve({
       data: {
@@ -46,7 +46,7 @@ export const addSavedArticle = (newsData, keyword) => {
 };
 
 export const removeSavedArticle = (selectedArticle) => {
-  const token = localStorage.getItem("jwt");
+  // const token = localStorage.getItem("jwt");
   return new Promise((resolve) => {
     resolve();
   });

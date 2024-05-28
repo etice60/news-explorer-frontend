@@ -1,8 +1,8 @@
 import "./MobileMenu.css";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
-import logoutblack from "../../images/logout-black.png";
-import logoutwhite from "../../images/logout-white.png";
+import logoutblack from "../../images/logout-black.svg";
+import logoutwhite from "../../images/logout-white.svg";
 import { CurrentPageContext } from "../../contexts/CurrentPageContext";
 import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 

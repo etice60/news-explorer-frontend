@@ -206,6 +206,7 @@
 @media screen and (min-width: 320px) and (max-width: 535px) {
   .card__container {
     width: 100%;
+    min-height: 288px;
   }
 
   .card__button-bookmark {
@@ -230,14 +231,6 @@
     -webkit-line-clamp: 4;
   }
 
-  .card__source {
-    bottom: -4px;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-  }
-
   .card__text {
     margin: 0 16px 16px;
   }
@@ -245,12 +238,16 @@
   .card__date-published {
     margin-top: 16px;
   }
-
-  .card__source {
-    margin: 0;
-  }
   .card__popup-text {
     top: 8px;
     right: 60px;
+  }
+  .card__source {
+    /* bottom: -4px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; */
+    margin: 0;
   }
 }

@@ -303,6 +303,7 @@ function App() {
                           searchError={searchError}
                           handleRemoveArticle={handleRemoveArticle}
                           handleSaveArticle={handleSaveArticle}
+                          isLoading={isSearching}
                           onSignUp={handleRegisterModal}
                         ></Main>
                       </Route>
@@ -321,6 +322,7 @@ function App() {
                         isLoading={isLoading}
                         handleRegisterModal={handleRegisterModal}
                         handleLogin={handleLogin}
+                        serverError={serverError}
                         onClose={handleCloseModal}
                       ></LoginModal>
                     )}
@@ -330,6 +332,7 @@ function App() {
                         handleRegistration={handleRegistration}
                         handleAltClick={handleAltClick}
                         isLoading={isLoading}
+                        serverError={serverError}
                         onSubmit={handleLoginModal}
                         onClose={handleCloseModal}
                         isOpen={activeModal === "create"}
