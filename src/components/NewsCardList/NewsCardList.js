@@ -13,7 +13,7 @@ const NewsCardList = ({ handleSaveArticle, handleRemoveArticle, onSignUp }) => {
   };
 
   return (
-    <section className="newscard__section">
+    <section className="newscard">
       {hasSearched ? (
         <>
           <h2 className="newscard__title">Search Results</h2>

@@ -68,8 +68,8 @@ const Header = ({ onLogin, onLogout }) => {
     </header>
   ) : isLoggedIn && currentPage === "/saved-news" ? (
     <header
-      className={`header__savednews ${
-        mobileMenuOpen ? "header__savednews-open" : ""
+      className={`header header_savednews ${
+        mobileMenuOpen ? "header_savednews-open" : ""
       }`}
     >
       <div>
@@ -78,28 +78,28 @@ const Header = ({ onLogin, onLogout }) => {
         </NavLink>
       </div>
       <button
-        className="header__savednews-menu-button"
+        className="header_savednews-menu-button"
         onClick={handleMobileMenu}
       ></button>
       {mobileMenuOpen && <MobileMenu onLogin={onLogin} onLogout={onLogout} />}
       <nav className="header__button-container">
         <NavLink
           to="/"
-          className="header__savednews-button-home"
+          className="header_savednews-button-home"
           type="text"
           exact
         >
           Home
         </NavLink>
         <NavLink
-          className="header__savednews-saved-articles"
-          activeClassName="header__button-active"
+          className="header_savednews-saved-articles"
+          activeClassName="header_button-active"
           to="/"
         >
           Saved Articles
         </NavLink>
         <button
-          className="header__savednews-username"
+          className="header_savednews-username"
           type="text"
           onClick={onLogout}
         >
