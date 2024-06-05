@@ -1,0 +1,60 @@
+.success__modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.success__modal-container {
+  max-width: 430px;
+  width: 100%;
+}
+
+.success__modal-close-button {
+  width: 40px;
+  height: 40px;
+  background-image: url("../../images/close-button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  left: calc(100% + 5px);
+}
+
+.success__modal-form {
+  max-width: 430px;
+  padding: 34px 36px 28px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+  color: rgba(47, 113, 229, 1);
+}
+
+.success__modal-title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 900;
+  color: black;
+  margin: 0px 0px 22px;
+}
+
+.success__modal-alt-button {
+  margin-left: 2px;
+  color: #2f71e5;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.39bb135f.css",
+    "main.js": "/static/js/main.a03f1e65.js",
+    "static/js/453.b4047a33.chunk.js": "/static/js/453.b4047a33.chunk.js",
+    "static/media/AboutImage.png": "/static/media/AboutImage.6bc05b63da6aee327d3e.png",
+    "static/media/backgroundimage.png": "/static/media/backgroundimage.6bcff26d8846e3264b9d.png",
+    "static/media/NewsExplorerBlack.svg": "/static/media/NewsExplorerBlack.0fd33e9f2c491d10cd82349f7de3671f.svg",
+    "static/media/NewsExplorerWhite.svg": "/static/media/NewsExplorerWhite.16fd9b4d2343bab1f095433b598a6eab.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.15d0c215cb19f4bac43cb289f26038e2.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.53572a9fe37475468e65406df04da2aa.svg",
+    "static/media/close-button.svg": "/static/media/close-button.cfdb6648e0980ebb5271.svg",
+    "static/media/NoResults.svg": "/static/media/NoResults.af7940a161492950041792433c1f5284.svg",
+    "static/media/card-trashcan.svg": "/static/media/card-trashcan.f3c9809f65730aefab94.svg",
+    "static/media/card-trashcan-hover.svg": "/static/media/card-trashcan-hover.b9abe9fbfff17050d036.svg",
+    "static/media/bookmark-hover.svg": "/static/media/bookmark-hover.ae5ed23689c2910fde17.svg",
+    "static/media/bookmark.svg": "/static/media/bookmark.317c48610e99a2f40ff4.svg",
+    "static/media/bookmark-clicked.svg": "/static/media/bookmark-clicked.a8b34fb45b19cb20990a.svg",
+    "main.39bb135f.css.map": "/static/css/main.39bb135f.css.map",
+    "main.a03f1e65.js.map": "/static/js/main.a03f1e65.js.map",
+    "453.b4047a33.chunk.js.map": "/static/js/453.b4047a33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39bb135f.css",
+    "static/js/main.a03f1e65.js"
+  ]
+}
